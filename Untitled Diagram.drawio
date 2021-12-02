@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T14:55:11.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="BerRJVTec6Wyepz45nGR" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T15:00:27.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vu0t_p4gbl-8Xetjm4un" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -142,6 +142,26 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-155" value="Sauver IC, BE et N° Commande dans var globales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="75" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-163" value="IC renseigné + BE renseigné &lt;br&gt;+ N° Commande = b" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-162">
+          <mxGeometry x="0.2188" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-165" value="IC = b + BE = b &lt;br&gt;+ N° Commande renseigné" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-164">
+          <mxGeometry x="-0.5937" y="-1" relative="1" as="geometry">
+            <mxPoint x="55" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-157" value="option &lt;br&gt;N° commande décochée" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="70" y="1440" width="130" height="130" as="geometry" />
         </mxCell>
@@ -165,6 +185,9 @@
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-142" value="OG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="ohkQfGkh49p79hyeSbiT-160">
           <mxGeometry x="20" y="60" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-166" value="fncVerifierIdentite" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1460" width="620" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
