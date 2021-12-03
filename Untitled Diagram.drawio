@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T10:24:20.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="4tNQRu4uFryq4wJLxjcf" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T10:24:59.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="NjypMFVoCQGJiIiLRKuC" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -70,6 +70,9 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-102" value="Ecran PC GIE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-339" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-103" target="ohkQfGkh49p79hyeSbiT-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-103" value="Option BE/IC cochée" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="80" y="161" width="100" height="100" as="geometry" />
         </mxCell>
@@ -91,12 +94,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-250" y="-160" as="sourcePoint" />
             <mxPoint x="-150" y="-160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-103" target="ohkQfGkh49p79hyeSbiT-110">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-220" y="-140" as="sourcePoint" />
-            <mxPoint x="-170" y="-190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-103" target="ohkQfGkh49p79hyeSbiT-107">
