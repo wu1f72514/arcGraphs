@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T08:29:52.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="k1eOZTgtbsra__DgPnie" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T08:35:16.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="8jIQDg2SdOmgchQMeldp" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -142,22 +142,9 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-155" value="Sauver IC, BE et N° Commande dans var globales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="75" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-169">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-249" target="ohkQfGkh49p79hyeSbiT-169">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="1540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="135" y="1580" />
-              <mxPoint x="568" y="1580" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-163" value="IC renseigné + BE renseigné &lt;br&gt;+ N° Commande = b" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-162">
-          <mxGeometry x="0.2188" relative="1" as="geometry">
-            <mxPoint x="-116" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-169">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1505" as="sourcePoint" />
             <mxPoint x="405" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -165,6 +152,12 @@
           <mxGeometry x="-0.5937" y="-1" relative="1" as="geometry">
             <mxPoint x="55" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-157" target="ohkQfGkh49p79hyeSbiT-253">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-157" value="option &lt;br&gt;N° commande décochée" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="70" y="1440" width="130" height="130" as="geometry" />
@@ -447,18 +440,40 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-239" value="fncVerifierIdentite = ERROR_SUCCESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1020" y="2850" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-241">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-241" target="ohkQfGkh49p79hyeSbiT-248">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="3470" as="targetPoint" />
             <Array as="points">
               <mxPoint x="591" y="3430" />
               <mxPoint x="120" y="3430" />
-              <mxPoint x="120" y="3470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-241" value="&lt;b&gt;Fin Fonction&lt;br&gt;fncVerifierIdentite en sortie&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillColor=#D4E1F5;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="531" y="3330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-248" value="zReponse = sortie fonction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-249" value="ezAvecIC = False" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-253" target="ohkQfGkh49p79hyeSbiT-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="1630" />
+              <mxPoint x="363" y="1570" />
+              <mxPoint x="605" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-256" value="IC renseigné + BE renseigné&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;+ N° Commande = b" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-255">
+          <mxGeometry x="-0.8095" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-253" value="ezAvecIC = True" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
