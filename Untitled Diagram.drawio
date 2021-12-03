@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T14:41:15.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kvdHMlg5UjbdvMNY3AUJ" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T15:26:00.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="EvHRfErUORSO_4BKjUx4" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -332,9 +332,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-217" value="&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-214">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-217" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;1115&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-214">
           <mxGeometry x="-0.6455" y="-3" relative="1" as="geometry">
-            <mxPoint x="-540" y="233" as="offset" />
+            <mxPoint x="-571" y="224" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-210" target="ohkQfGkh49p79hyeSbiT-227">
@@ -515,7 +515,7 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-260" target="ohkQfGkh49p79hyeSbiT-262">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-260" value="Affichage écran&lt;br&gt;frmVericationEntree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-260" value="Affichage écran&lt;br&gt;frmVerificationEntree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="60" y="3760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#CC0000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-262" target="ohkQfGkh49p79hyeSbiT-264">
@@ -564,7 +564,7 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-277" target="ohkQfGkh49p79hyeSbiT-278">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-277" value="Affichage écran&lt;br&gt;frmVericationEntree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-277" value="Affichage écran&lt;br&gt;frmVerificationEntree" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="240" y="4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#3333FF;strokeColor=#CC0000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-278" target="ohkQfGkh49p79hyeSbiT-264">
@@ -741,7 +741,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-232" value="&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-231">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-232" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;1115&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-231">
           <mxGeometry x="0.196" relative="1" as="geometry">
             <mxPoint x="-294" as="offset" />
           </mxGeometry>
