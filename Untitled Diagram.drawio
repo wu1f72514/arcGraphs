@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T08:08:20.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="iWQ0FK463jbpNU8Exh1U" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T08:10:26.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ld82pi_4MT-7RGVHdXQ7" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-217" value="&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-214">
           <mxGeometry x="-0.6455" y="-3" relative="1" as="geometry">
-            <mxPoint x="218" y="-13" as="offset" />
+            <mxPoint x="-136" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-210" value="mode verif != &lt;br&gt;MODE_BASE&lt;br&gt;LOCALE_OG" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -321,12 +321,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-213" value="OG" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="2760" width="80" height="80" as="geometry" />
+          <mxGeometry x="75" y="2770" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-218" target="ohkQfGkh49p79hyeSbiT-222">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-218" value="Réponse n&#39;est pas un succès" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ohkQfGkh49p79hyeSbiT-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-218" target="ohkQfGkh49p79hyeSbiT-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-218" value="Réponse n&#39;est &lt;br&gt;pas un succès" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="450" y="2880" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-220" value="&lt;font color=&quot;#ff3333&quot;&gt;Message ERREUR:&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;Erreur demande OG&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
@@ -337,6 +340,9 @@
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-222" value="fncVerifierIdentite = ERR_NON_TROUVER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="445" y="3040" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-225" value="fncVerifierIdentite = ERROR_SUCCESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="609.5" y="3040" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
