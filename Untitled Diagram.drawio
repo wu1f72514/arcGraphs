@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T10:13:36.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="himTmowiPSL1zP9Rkp6K" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T10:15:13.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="gUX8BrSrE9Jf17dtfa_j" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -330,6 +330,8 @@
               <mxPoint x="220" y="2810" />
               <mxPoint x="220" y="3060" />
               <mxPoint x="-469" y="3060" />
+              <mxPoint x="-469" y="3140" />
+              <mxPoint x="-406" y="3140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -426,24 +428,6 @@
               <mxPoint x="1170" y="3260" />
               <mxPoint x="600" y="3260" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-198" target="ohkQfGkh49p79hyeSbiT-291">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-310" y="2820" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="568" y="2368" />
-              <mxPoint x="588" y="2368" />
-              <mxPoint x="588" y="2480" />
-              <mxPoint x="115" y="2480" />
-              <mxPoint x="115" y="2920" />
-              <mxPoint x="-469" y="2920" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ohkQfGkh49p79hyeSbiT-232" value="&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-231">
-          <mxGeometry x="0.196" relative="1" as="geometry">
-            <mxPoint x="-294" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-234" target="ohkQfGkh49p79hyeSbiT-237">
@@ -743,6 +727,26 @@
         <mxCell id="ohkQfGkh49p79hyeSbiT-165" value="IC = b + BE = b &lt;br&gt;+ N° Commande renseigné" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-164">
           <mxGeometry x="-0.5937" y="-1" relative="1" as="geometry">
             <mxPoint x="55" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-198" target="ohkQfGkh49p79hyeSbiT-291">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="2820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="2368" />
+              <mxPoint x="588" y="2368" />
+              <mxPoint x="588" y="2480" />
+              <mxPoint x="115" y="2480" />
+              <mxPoint x="115" y="2920" />
+              <mxPoint x="-469" y="2920" />
+              <mxPoint x="-469" y="3140" />
+              <mxPoint x="-406" y="3140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-232" value="&lt;div style=&quot;text-align: left&quot;&gt;Date = maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Heure = Maintenant&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;IND_ICBE = indice ICBE&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_BE = BE formaté 0000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_COMMANDE = N° Commande formaté 0000000000&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;NUM_IC = IC formaté 0000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ohkQfGkh49p79hyeSbiT-231">
+          <mxGeometry x="0.196" relative="1" as="geometry">
+            <mxPoint x="-294" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
