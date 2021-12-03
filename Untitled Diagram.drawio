@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T08:56:29.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="6xO_dwcVA7YuJFxBa76M" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T08:58:05.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="B9kT33yxJtqUrE8LmWVO" version="15.8.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,14 @@
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-107" value="IC et BE en saisie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="70" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohkQfGkh49p79hyeSbiT-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="ohkQfGkh49p79hyeSbiT-110" target="ohkQfGkh49p79hyeSbiT-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="370" />
+              <mxPoint x="130" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ohkQfGkh49p79hyeSbiT-110" value="IC et N° Commande en saisie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
