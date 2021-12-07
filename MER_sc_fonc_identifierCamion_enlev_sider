@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T14:18:07.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="16WaxAkUKGNkFvz0UBMX" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T14:23:25.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="sclEJLnKID-0PWWg-I6H" version="15.9.1" type="github">
   <diagram id="Q7AEC-_fKNd9yhNPSurx" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,14 +49,26 @@
         <mxCell id="6gUORLWhg1mMuSl4yJLm-16" value="&lt;span style=&quot;font-size: 10px&quot;&gt;appel.strLettreProduit&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;= APL_CLS_ENLEV_DIVERS&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;(&quot;D&quot;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
           <mxGeometry x="235" y="980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6gUORLWhg1mMuSl4yJLm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-18" target="6gUORLWhg1mMuSl4yJLm-21">
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-18" target="6gUORLWhg1mMuSl4yJLm-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gUORLWhg1mMuSl4yJLm-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;zMsg.type_entree == ENT_ENLEV_PROD_SIDE&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=14;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
           <mxGeometry x="420" y="840" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="6gUORLWhg1mMuSl4yJLm-21" value="" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1115" width="120" height="60" as="geometry" />
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-23" target="6gUORLWhg1mMuSl4yJLm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-23" value="zMsg.typ_ident == IDENT_AVEC_NUM_CMD&amp;nbsp;&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;&amp;nbsp;IDENT_SANS_NUM_CMD" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=14;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1060" width="240" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-25" value="appel.strLettreProduit = APL_CLS_GENERIQUE" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1310" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-27" value="Enlevement &lt;br&gt;sidérurgique" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="810" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-28" value="Identification sans BE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1270" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
