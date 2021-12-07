@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T14:46:07.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Z_Fay1u52AlLo2KIR_KF" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T14:47:51.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vxKVrlO8CvCEibxGAjQ5" version="15.9.1" type="github">
   <diagram id="Q7AEC-_fKNd9yhNPSurx" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,11 @@
         <mxCell id="6gUORLWhg1mMuSl4yJLm-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0000;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-62" target="6gUORLWhg1mMuSl4yJLm-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#CC0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-62" target="6gUORLWhg1mMuSl4yJLm-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6gUORLWhg1mMuSl4yJLm-62" value="dwAppError&amp;nbsp;&lt;br&gt;!= &lt;br&gt;ERROR_SUCCESS" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=10;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
           <mxGeometry x="570" y="2070" width="120" height="130" as="geometry" />
         </mxCell>
@@ -186,11 +191,17 @@
         <mxCell id="6gUORLWhg1mMuSl4yJLm-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#CC0000;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-70" target="6gUORLWhg1mMuSl4yJLm-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#CC0000;" edge="1" parent="1" source="6gUORLWhg1mMuSl4yJLm-70" target="6gUORLWhg1mMuSl4yJLm-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6gUORLWhg1mMuSl4yJLm-70" value="dwAppError&amp;nbsp;&lt;br&gt;!= &lt;br&gt;ERROR_SUCCESS" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=10;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
           <mxGeometry x="570" y="2350" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="6gUORLWhg1mMuSl4yJLm-72" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Second échec&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;-&amp;gt; sortie&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#CC0000;" vertex="1" parent="1">
           <mxGeometry x="638" y="2320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6gUORLWhg1mMuSl4yJLm-74" value="appel.strLangue = zMsg.cod_langue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
