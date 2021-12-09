@@ -1,0 +1,85 @@
+N:\MER\Mer XP Stdv\Mer\Develo\Global\Mer\MER_MSG
+
+message 1110 : MSG_SL_OG_ENLEV_SIDER
+-------------------------------------------------------------------------------------------------------
+donc recherche MSG_SL_OG_ENLEV_SIDER ->
+
+	N:\MER\Mer XP Stdv\Mer\Develo\Dial_VB\PcGie
+		-> pOGNotifierIdentEnlS reçoit en second parametre le contenu du message
+		-> pOGInterroICBE reçoit en second paramètre le contenu du message
+
+
+		 
+----------------------------------------------------------------------
+message 1115 : MSG_SL_OG_INFO_ENLEV
+
+On se sert de la réponse de l'OG pour alimenter la table T_APPEL
+1115 -> MSG_SL_OG_INFO_ENLEV
+Dial_VB\PcGIE / pOGInterroICBE fait demande OG MSG_SL_OG_INFO_ENLEV (1115)
+-> DialVB\PcGie fncVerifierIdentite 
+-> appelé sur Dial_VB\PcGie\frmIdentificationVerificationEntree
+
+Vérifier que num de commande est alimenté avant l'appel de l'OG pour le 1115
+
+frmIdentificationVerificationEntree
+	-> interro OG avec fncVerifierIdentite
+		si pas de num commande -> instruct chargement alim + BR alim + num commande à blanc
+		si num commande -> instruct chargement à blanc + BR à blanc + num commande alim
+		-> PCGie \ fncVerifierIdentite -> envoi message à l'OG avec numéro de commande alimenté
+
+-----------------------------------------------------
+tables avec numero de commande
+T_APPEL
+T_ICBE
+T_TICKET_PESEE
+
+frmIdentificationVerificationEntree
+	-> valider
+		-> si mode de verif SELECT dans T_PARAM
+		-> verif champs renseignés (si option num commande et num commande non-renseigné -> bloqué)
+		-> si option num commande -> appel fncVerifierIdentite avec num commande seul
+			-> si reponse OK affichage écran frmVerificationEntree + sortie écran en cours
+			-> sinon msg "identité non-trouvée" + rab champs + proposition écran forcage
+				-> si réponse Oui affichage écran frmVerificationEntree + sortie écran en cours
+
+
+
+dans fncVerifierIdentite -> interrogation OG via pOGInterroICBE
+
+pOGNotifierIdentEnlS (PcGie) => 1110
+A FAIRE : faire schéma frmVerificationEntree
+
+
+BaseMer.cpp dans N:\MER\Mer XP Stdv7\Mer\Develo\Process_Cpp\PrcLib\BaseMer
+
+l 467 : BD_SetICBE
+INSERT dans T_ICBE
+Bug suspecté l 533: si INSERT on met ETAT_MAJ à M alors qu'il devrait etre logiquement à C
+
+prc_og.cpp
+	MajICBE appelle BD_SetICBE (de BaseMer) avec données de la structure reçue
+
+
+
+
+A FAIRE: verifier alim n commande 1110 et 1115
+
+
+Perte de num commande dans T_APPEL et dans msg 1115:
+
+Recherche depuis l'update/insert de T_APPEL jusqu'au message 1115 => info num commande trainée du message jusqu'à l'impact BDD donc pas de perte d'info -> la perte doit provenir de 1115
+
+Process_Cpp\Suivi_Camions\main.cpp / main init du pipe SUIVI_CAMION_PIPENAME + démarrage du serveur pipe VbView qui invoque DispatchMessage -> Process_Cpp\Suivi_Camions\sc_msg.cpp / DispatchMessage "pMsgRecu" interprété à partir de pMsg reçu en paramètre (cas de MSG_IDENT (message d'identification) -> Process_Cpp\Suivi_Camions\sc_fonc.cpp / RecevoirIdentification "msg" reçu en param converti en zMsg pour appel de IdentifierCamion -> Process_Cpp\Suivi_Camions\sc_fonc.cpp / IdentifierCamion données dans "ZMsg" reçu en param
+ -> Process_Cpp\PrcLib\BaseMer / BD_InsertCamion = INSERT/UPDATE dans T_APPEL
+
+--------------------------------
+
+BaseMer \ BD_InsertCamion: insert dans T_APPEL reçoit numéro d'appel (strNumeroAppel) dans param appel
+	sc_fonc.cpp \ IdentifierCamion : appel de BD_InsertCamion -> lettre du numéro d'appel définie ici
+		cas enlevement produit sidérurgique:
+		si type identification est avec num de commande ou sans -> lettre produit = X
+		sinon recherche ICBE dans T_ICBE 
+			si n'existe pas dans la table -> lettre produit = X
+			sinon lettre produit = lettre dans la table T_ICBE
+				si lettre produit à blanc ou non renseigné -> lettre = X
+		
