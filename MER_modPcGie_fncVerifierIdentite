@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T08:56:32.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="5E4wmFQVtWEATk2nm7UW" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T08:57:42.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="79Yn2p6b2l7d78Zv5zXC" version="15.9.1" type="github">
   <diagram id="VI1cBn01iZvQPIADcgdl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="hLlLvRhO014zDnu73rsN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-6" target="hLlLvRhO014zDnu73rsN-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hLlLvRhO014zDnu73rsN-6" value="&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;Alerte ERREUR :&lt;/font&gt;&lt;/b&gt;&lt;br&gt;La table T_ICBE locale est vide" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="hLlLvRhO014zDnu73rsN-6" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;Alerte INFO:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;La table T_ICBE locale est vide" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="305" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLlLvRhO014zDnu73rsN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-8" target="hLlLvRhO014zDnu73rsN-11">
