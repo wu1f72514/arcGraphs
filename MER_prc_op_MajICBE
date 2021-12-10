@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T13:42:16.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vlQq0IOY-FfHWiMEgTn4" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T13:46:24.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="_f8J4bH8YUBLM_IrxCWu" version="15.9.1" type="github">
   <diagram id="YQaSXEsVItfsxRLKYTse" name="Page-1">
     <mxGraphModel dx="1775" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -9,37 +9,37 @@
             <mxRectangle x="-10" y="504" width="30" height="400" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-1" target="Jepi9ZOlNojBhfdOB_7b-3">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-1" target="Jepi9ZOlNojBhfdOB_7b-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-1" value="&lt;b&gt;Début fonction&lt;/b&gt;&lt;br&gt;params:&lt;br&gt;z_icbe (Struct ICBE)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-1" value="&lt;b&gt;Début fonction&lt;/b&gt;&lt;br&gt;params:&lt;br&gt;z_icbe (Struct ICBE)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;shadow=0;glass=0;sketch=0;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="280" y="20" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-2" value="&lt;span style=&quot;font-size: 18px&quot;&gt;prc_og.cpp / MajICBE&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="20" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-3" target="Jepi9ZOlNojBhfdOB_7b-5">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-3" target="Jepi9ZOlNojBhfdOB_7b-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-3" value="rec_icbe.strBE = z_icbe.num_be&lt;br&gt;rec_icbe.strIC = z_icbe.num_ic&lt;br&gt;rec_icbe.strCodeAffreteur = z_icbe.cod_affreteur" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;glass=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-3" value="rec_icbe.strBE = z_icbe.num_be&lt;br&gt;rec_icbe.strIC = z_icbe.num_ic&lt;br&gt;rec_icbe.strCodeAffreteur = z_icbe.cod_affreteur" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="217.5" y="120" width="295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-5" target="Jepi9ZOlNojBhfdOB_7b-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-5" target="Jepi9ZOlNojBhfdOB_7b-9">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-5" target="Jepi9ZOlNojBhfdOB_7b-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-5" value="rec_icbe.strBE comporte un blanc&lt;br&gt;&lt;b&gt;OU&lt;br&gt;&lt;/b&gt;rec_icbe.strIC comporte un blanc&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;rec_icbe.strCodeAffreteur&amp;nbsp;comporte un blanc" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;glass=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-5" value="rec_icbe.strBE comporte un blanc&lt;br&gt;&lt;b&gt;OU&lt;br&gt;&lt;/b&gt;rec_icbe.strIC comporte un blanc&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;rec_icbe.strCodeAffreteur&amp;nbsp;comporte un blanc" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="178.75" y="210" width="372.5" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-7" value="&lt;b&gt;Message debug :&lt;/b&gt;&lt;br&gt;ICBE - code affreteur refusé" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="285" y="420" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-9" target="Jepi9ZOlNojBhfdOB_7b-57">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-9" target="Jepi9ZOlNojBhfdOB_7b-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-9" value="rec_icbe.strLettreProduit = z_icbe.lettre_produit&lt;br&gt;rec_icbe.strNatureProduit = z_icbe.nat_produit&lt;br&gt;rec_icbe.strNomClient = z_icbe.nom_client&lt;br&gt;rec_icbe.strNumCommande = z_icbe.num_commande&lt;br&gt;rec_icbe.strPortePrevue = z_icbe.porte_prev_dest&lt;br&gt;rec_icbe.Priorite = z_icbe.deg_priorite&lt;br&gt;rec_icbe.strTypeProduit = z_icbe.typ_produit" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;glass=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-9" value="rec_icbe.strLettreProduit = z_icbe.lettre_produit&lt;br&gt;rec_icbe.strNatureProduit = z_icbe.nat_produit&lt;br&gt;rec_icbe.strNomClient = z_icbe.nom_client&lt;br&gt;rec_icbe.strNumCommande = z_icbe.num_commande&lt;br&gt;rec_icbe.strPortePrevue = z_icbe.porte_prev_dest&lt;br&gt;rec_icbe.Priorite = z_icbe.deg_priorite&lt;br&gt;rec_icbe.strTypeProduit = z_icbe.typ_produit" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="385" width="305" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-11" value="T_ICBE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
@@ -163,8 +163,19 @@
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=default;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-57" target="Jepi9ZOlNojBhfdOB_7b-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-57" value="Appel BD_SetICBE&lt;br&gt;= false" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;strokeColor=#d6b656;fillColor=#fff2cc;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-57" target="Jepi9ZOlNojBhfdOB_7b-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="606" />
+              <mxPoint x="760" y="836" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-57" value="Appel BD_SetICBE&lt;br&gt;= false" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="588.75" y="561" width="87.5" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;strokeColor=default;fillColor=#00CC00;" edge="1" parent="1" source="Jepi9ZOlNojBhfdOB_7b-59" target="Jepi9ZOlNojBhfdOB_7b-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-59" value="&lt;b&gt;Message debug :&lt;/b&gt;&lt;br&gt;Erreur SQL rencontrée" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="552.5" y="674" width="160" height="60" as="geometry" />
@@ -179,6 +190,9 @@
           <mxGeometry x="0.3595" y="-2" relative="1" as="geometry">
             <mxPoint x="64" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-66" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-weight: bold&quot;&gt;Fin Fonction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="806" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
