@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T13:41:41.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="PMP-ybg5CVoG4aI5aBqN" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T13:42:16.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vlQq0IOY-FfHWiMEgTn4" version="15.9.1" type="github">
   <diagram id="YQaSXEsVItfsxRLKYTse" name="Page-1">
     <mxGraphModel dx="1775" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
             <mxPoint x="346" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jepi9ZOlNojBhfdOB_7b-64" value="&lt;i&gt;Détail des données&lt;/i&gt;" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=#D5E8D4;html=1;" vertex="1" connectable="0" parent="Jepi9ZOlNojBhfdOB_7b-63">
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-64" value="&lt;i&gt;Détail des données à insérer&lt;/i&gt;" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=#D5E8D4;html=1;" vertex="1" connectable="0" parent="Jepi9ZOlNojBhfdOB_7b-63">
           <mxGeometry x="0.3595" y="-2" relative="1" as="geometry">
             <mxPoint x="64" y="2" as="offset" />
           </mxGeometry>
