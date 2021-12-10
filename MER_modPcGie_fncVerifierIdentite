@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T07:52:49.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="PMHBjEKUxbNPyS5kRl1w" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T08:00:03.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vukDpiTY9JNqNfwPSfrU" version="15.9.1" type="github">
   <diagram id="VI1cBn01iZvQPIADcgdl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,53 @@
         <mxCell id="hLlLvRhO014zDnu73rsN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-4" target="hLlLvRhO014zDnu73rsN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-4" target="hLlLvRhO014zDnu73rsN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hLlLvRhO014zDnu73rsN-4" value="nb == 0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="325" y="220" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-6" target="hLlLvRhO014zDnu73rsN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hLlLvRhO014zDnu73rsN-6" value="&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;Alerte ERREUR :&lt;/font&gt;&lt;/b&gt;&lt;br&gt;La table T_ICBE locale est vide" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="305" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-8" target="hLlLvRhO014zDnu73rsN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-8" target="hLlLvRhO014zDnu73rsN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-8" value="zIC != &quot;&quot;&lt;br&gt;&lt;b&gt;ET&lt;/b&gt;&lt;br&gt;zBE != &quot;&quot;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="405" y="420" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-11" target="hLlLvRhO014zDnu73rsN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-11" value="&lt;b&gt;Requête&amp;nbsp;BDD locale&lt;/b&gt;&lt;br&gt;SELECT * FROM T_ICBE WHERE ICB_BE = zBE AND ICB_IC = zIC" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="530" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-13" target="hLlLvRhO014zDnu73rsN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-13" value="zIndICBE = &quot;I&quot;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-15" target="hLlLvRhO014zDnu73rsN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-15" value="zNoCmd != &quot;&quot;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="500" y="690" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="1" source="hLlLvRhO014zDnu73rsN-18" target="hLlLvRhO014zDnu73rsN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-18" value="&lt;b&gt;Requête&amp;nbsp;BDD locale&lt;/b&gt;&lt;br&gt;SELECT * FROM T_ICBE WHERE ICB_NUM_COMMANDE = zNoCmd AND ICB_BE = zBE" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="460.5" y="810" width="174" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-20" value="zIndICBE = &quot;C&quot;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="920" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
