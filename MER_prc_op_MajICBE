@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T13:46:24.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="_f8J4bH8YUBLM_IrxCWu" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T13:53:35.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="QBOjIwxngfDTwIdmSJbt" version="15.9.1" type="github">
   <diagram id="YQaSXEsVItfsxRLKYTse" name="Page-1">
-    <mxGraphModel dx="1775" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,6 +193,15 @@
         </mxCell>
         <mxCell id="Jepi9ZOlNojBhfdOB_7b-66" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-weight: bold&quot;&gt;Fin Fonction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="572.5" y="806" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-69" value="Alimenté" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="264" y="825" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jepi9ZOlNojBhfdOB_7b-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262" y="835" as="targetPoint" />
+            <mxPoint x="212" y="835" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
