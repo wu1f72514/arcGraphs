@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T12:35:25.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="sq6gi2WC9jS1bsRHXnHx" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:38:37.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="jk7YeObd2xgTpiB9P5BY" version="15.9.1" type="github">
   <diagram id="PG0BTsGRuX8QAkHIuyqD" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-1" target="bFv6DIiAOrDD3vVBwrOe-2">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-1" target="bFv6DIiAOrDD3vVBwrOe-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-1" value="&lt;b&gt;Début fonction&lt;/b&gt;&lt;br&gt;params:&lt;br&gt;*pMsgOG(Struct MSG_OG" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-1" value="&lt;b&gt;Début fonction&lt;/b&gt;&lt;br&gt;params:&lt;br&gt;*pMsgOG(Struct MSG_OG" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;shadow=0;glass=0;sketch=0;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="280" y="20" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-2" target="bFv6DIiAOrDD3vVBwrOe-5">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-2" target="bFv6DIiAOrDD3vVBwrOe-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-2" value="lAppError = ERRORSUCCESS&lt;br&gt;lSysError = ERROR_SUCCESS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;shadow=0;glass=0;sketch=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-2" value="lAppError = ERRORSUCCESS&lt;br&gt;lSysError = ERROR_SUCCESS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;shadow=0;glass=0;sketch=0;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="265" y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-5" target="bFv6DIiAOrDD3vVBwrOe-7">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-5" target="bFv6DIiAOrDD3vVBwrOe-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-5" value="&lt;b&gt;ConvertUtToUtz&lt;/b&gt;&lt;br&gt;Conversion entête OG en structure &quot;null terminated&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-5" value="&lt;b&gt;ConvertUtToUtz&lt;/b&gt;&lt;br&gt;Conversion entête OG en structure &quot;null terminated&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="297.5" y="190" width="135" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-7" target="bFv6DIiAOrDD3vVBwrOe-12">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-7" target="bFv6DIiAOrDD3vVBwrOe-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-7" value="Conversion du code message OG &lt;br&gt;en code message VBVIEW&lt;br&gt;iNumMsg = atoi(zEnteteOG.cod_application) + 20000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-7" value="Conversion du code message OG &lt;br&gt;en code message VBVIEW&lt;br&gt;iNumMsg = atoi(zEnteteOG.cod_application) + 20000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="210" y="280" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-11" target="bFv6DIiAOrDD3vVBwrOe-15">
@@ -45,7 +45,7 @@
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-12" target="bFv6DIiAOrDD3vVBwrOe-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-12" value="iNumMsg ==&amp;nbsp;&lt;br&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_RETOUR&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_DATEHEURE&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-12" value="iNumMsg ==&amp;nbsp;&lt;br&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_RETOUR&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_DATEHEURE&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="23" y="380" width="221" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-15" target="bFv6DIiAOrDD3vVBwrOe-17">
@@ -57,7 +57,7 @@
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-17" target="bFv6DIiAOrDD3vVBwrOe-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFv6DIiAOrDD3vVBwrOe-17" value="&lt;b&gt;Alimentation de la table T_ICBE&lt;/b&gt;&lt;br&gt;Appel &lt;b&gt;MajICBE &lt;/b&gt;avec données" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-17" value="&lt;b&gt;Alimentation de la table T_ICBE&lt;/b&gt;&lt;br&gt;Appel &lt;b&gt;MajICBE &lt;/b&gt;avec données" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="73.5" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-20" target="bFv6DIiAOrDD3vVBwrOe-23">
@@ -143,6 +143,9 @@
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-48" value="&lt;span style=&quot;font-size: 18px&quot;&gt;og_rep_fct.cpp / DispatchMessage&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="20" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-53" value="&lt;b&gt;Dans le cas du message 1116 :&lt;/b&gt;&lt;br&gt;iNumMsg = MSG_OG_SL_INFO_ICBE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
