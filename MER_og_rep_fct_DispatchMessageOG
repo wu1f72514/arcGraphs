@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T12:27:00.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="T5CdwKCqQ-G2cPIGCznR" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:29:04.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="HWBhi-9Z-8Z75rdNR2u-" version="15.9.1" type="github">
   <diagram id="PG0BTsGRuX8QAkHIuyqD" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,9 @@
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-25" target="bFv6DIiAOrDD3vVBwrOe-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-25" target="bFv6DIiAOrDD3vVBwrOe-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-25" value="&lt;span&gt;iNumMsg ==&amp;nbsp;&lt;br&gt;&lt;/span&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;&lt;span&gt;MSG_OG_SL_DATEHEURE&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="310" y="1310" width="210" height="190" as="geometry" />
         </mxCell>
@@ -98,6 +101,9 @@
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-36" value="&lt;b&gt;Conversion du message&lt;/b&gt;&lt;br&gt;ConvertMsgZToMsg" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="1740" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-38" value="&lt;b&gt;Retourner le message au demandeur&lt;/b&gt;&lt;br&gt;memcpy &amp;amp;MsgOgRet -&amp;gt; pMsgOG" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="593.75" y="1520" width="236.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
