@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T12:30:16.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="3v0LIG_AgnDVNSQEGjh3" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:34:30.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="-DqdbGrRanRRsLxg0gsL" version="15.9.1" type="github">
   <diagram id="PG0BTsGRuX8QAkHIuyqD" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-12" target="bFv6DIiAOrDD3vVBwrOe-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-12" target="bFv6DIiAOrDD3vVBwrOe-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-12" value="iNumMsg ==&amp;nbsp;&lt;br&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_RETOUR&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;MSG_OG_SL_DATEHEURE&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="23" y="380" width="221" height="220" as="geometry" />
         </mxCell>
@@ -79,45 +82,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-25" value="&lt;span&gt;iNumMsg ==&amp;nbsp;&lt;br&gt;&lt;/span&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;&lt;span&gt;MSG_OG_SL_DATEHEURE&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1310" width="210" height="190" as="geometry" />
+          <mxGeometry x="295" y="1310" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-28" target="bFv6DIiAOrDD3vVBwrOe-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-28" value="&lt;b&gt;Initialisation message retour à 0000&lt;/b&gt;&lt;br&gt;zRetourOG.cod_erreur = 0000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="298.75" y="1520" width="232.5" height="60" as="geometry" />
+          <mxGeometry x="283.75" y="1520" width="232.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-30" target="bFv6DIiAOrDD3vVBwrOe-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-30" value="&lt;b&gt;Mise à blanc champs&lt;/b&gt;&lt;br&gt;zRetourOG.lib_erreur = null&lt;br&gt;zRetourOG.num_appel = null&lt;br&gt;zRetourOG.num_remorque = null" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="311.25" y="1601" width="207.5" height="60" as="geometry" />
+          <mxGeometry x="296.25" y="1601" width="207.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-32" target="bFv6DIiAOrDD3vVBwrOe-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-32" value="Construction de l&#39;entête du message à retourner au demandeur" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="236.25" y="1681" width="357.5" height="36" as="geometry" />
+          <mxGeometry x="221.25" y="1681" width="357.5" height="36" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-36" target="bFv6DIiAOrDD3vVBwrOe-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-36" value="&lt;b&gt;Conversion du message&lt;/b&gt;&lt;br&gt;ConvertMsgZToMsg" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="1740" width="165" height="60" as="geometry" />
+          <mxGeometry x="317.5" y="1740" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-38" target="bFv6DIiAOrDD3vVBwrOe-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="712" y="1840" />
-              <mxPoint x="555" y="1840" />
+              <mxPoint x="697" y="1840" />
+              <mxPoint x="540" y="1840" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-38" value="&lt;b&gt;Retourner le message au demandeur&lt;/b&gt;&lt;br&gt;memcpy &amp;amp;MsgOgRet -&amp;gt; pMsgOG" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="593.75" y="1520" width="236.25" height="60" as="geometry" />
+          <mxGeometry x="537.75" y="1520" width="236.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-40" target="bFv6DIiAOrDD3vVBwrOe-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-40" value="&lt;b&gt;Répondre au demandeur&lt;/b&gt;&lt;br&gt;Appel RepondreAuDemandeur" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1880" width="190" height="60" as="geometry" />
+          <mxGeometry x="445" y="1880" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-43" target="bFv6DIiAOrDD3vVBwrOe-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="600" />
+              <mxPoint x="780" y="600" />
+              <mxPoint x="780" y="1990" />
+              <mxPoint x="645" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-43" value="&lt;b&gt;Message debug :&lt;/b&gt;&lt;br&gt;Message OG non-attendu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-45" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-weight: bold&quot;&gt;Fin Fonction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="585" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
