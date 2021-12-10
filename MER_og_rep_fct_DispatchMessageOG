@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T11:00:29.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="XUsduV7RV32hg7oEZABs" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:23:38.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="dEuWNU2RGndWsQE8xh-b" version="15.9.1" type="github">
   <diagram id="PG0BTsGRuX8QAkHIuyqD" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,8 +72,20 @@
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-23" value="&lt;b&gt;Mise à jour de l&#39;heure&lt;/b&gt;&lt;br&gt;Appel &lt;b&gt;MajHeure&amp;nbsp;&lt;/b&gt;avec zEntetOG.dat_emission" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="220" y="1200" width="140" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-25" target="bFv6DIiAOrDD3vVBwrOe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bFv6DIiAOrDD3vVBwrOe-25" value="&lt;span&gt;iNumMsg ==&amp;nbsp;&lt;br&gt;&lt;/span&gt;MSG_OG_SL_INFO_ICBE&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;&lt;span&gt;MSG_OG_SL_DATEHEURE&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="310" y="1310" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFv6DIiAOrDD3vVBwrOe-28" target="bFv6DIiAOrDD3vVBwrOe-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-28" value="&lt;b&gt;Initialisation message retour à 0000&lt;/b&gt;&lt;br&gt;zRetourOG.cod_erreur = 0000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="298.75" y="1520" width="232.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFv6DIiAOrDD3vVBwrOe-30" value="&lt;b&gt;Mise à blanc champs&lt;/b&gt;&lt;br&gt;zRetourOG.lib_erreur = null&lt;br&gt;zRetourOG.num_appel = null&lt;br&gt;zRetourOG.num_remorque = null" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="311.25" y="1601" width="207.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
