@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T08:59:39.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="rxUPnZBNOh4H58oTE16q" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T09:01:13.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="QXWxx-PVZGDwq1nIa4sP" version="15.9.1" type="github">
   <diagram id="VI1cBn01iZvQPIADcgdl" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,6 +216,9 @@
         </mxCell>
         <mxCell id="hLlLvRhO014zDnu73rsN-80" value="Code dupliqué" style="swimlane;startSize=0;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#000000;strokeColor=#B3B3B3;fontStyle=3;align=right;" vertex="1" parent="1">
           <mxGeometry x="1059.13" y="1210" width="420" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="hLlLvRhO014zDnu73rsN-81" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Cas d&#39;une table T_ICBE avec aucun enregistrement&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="55" width="430" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
