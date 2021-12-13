@@ -1,1 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T07:30:24.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.9.4" etag="fdRk7e_NmGG7vWlT_rDt" type="github"><diagram id="qFBxKMCJkBwWgmvZlUzg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-13T07:34:02.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="-1q7Kox2kN3fp1x-LK_Q" version="15.9.4" type="github">
+  <diagram id="qFBxKMCJkBwWgmvZlUzg" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jOIugPWF5q85kDvcvTo--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;strokeColor=#3333FF;" edge="1" parent="1" source="jOIugPWF5q85kDvcvTo--2" target="jOIugPWF5q85kDvcvTo--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jOIugPWF5q85kDvcvTo--5" value="Tous les messages reçus de l&#39;OG sont envoyés &lt;br&gt;à la fonction de dispatch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jOIugPWF5q85kDvcvTo--4">
+          <mxGeometry x="0.22" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jOIugPWF5q85kDvcvTo--2" value="&lt;b&gt;main&lt;/b&gt;&lt;br&gt;&lt;i&gt;main.cpp&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jOIugPWF5q85kDvcvTo--3" value="&lt;b&gt;DispatchMessage&lt;/b&gt;&lt;br&gt;&lt;i&gt;SuiviCamions/sc_msg.cpp&lt;/i&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
