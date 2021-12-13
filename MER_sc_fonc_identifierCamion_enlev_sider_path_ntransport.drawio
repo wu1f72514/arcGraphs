@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T12:47:33.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="USytT8NVPlAgs8tR1zCR" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T12:48:37.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="PD_Gps9X1o-ZCXkCX6IV" version="15.9.4" type="github">
   <diagram id="Q7AEC-_fKNd9yhNPSurx" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,14 +326,20 @@
         <mxCell id="6gUORLWhg1mMuSl4yJLm-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="6gUORLWhg1mMuSl4yJLm-82" target="6gUORLWhg1mMuSl4yJLm-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQwB-aBYrOeYrWGFvleu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="YQwB-aBYrOeYrWGFvleu-27" target="YQwB-aBYrOeYrWGFvleu-31">
+        <mxCell id="YQwB-aBYrOeYrWGFvleu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="YQwB-aBYrOeYrWGFvleu-27" target="YQwB-aBYrOeYrWGFvleu-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YQwB-aBYrOeYrWGFvleu-27" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;appel.strNumIC = zMsg.num_ic&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;appel.strNumBE = zMsg.num_be&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;appel.strNumCommande = zMsg.num_commande&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;apple.lgPTCMX = zMsg.ptcmx&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;appel.iTypLivraison = zMsg.typ_entree&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="732.5" y="3480" width="367.5" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="YQwB-aBYrOeYrWGFvleu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="YQwB-aBYrOeYrWGFvleu-31" target="YQwB-aBYrOeYrWGFvleu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YQwB-aBYrOeYrWGFvleu-31" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;appel.strSecteur = zMsg.strSecteur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;appel.strPOrteConfirmee = appel.strPortePrevue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;appl.bPdcInvalide = false&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="730.5" y="3610" width="367.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YQwB-aBYrOeYrWGFvleu-33" value="Appel&lt;br&gt;BD_InsertCamion avec appel&lt;br&gt;= false" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="844.25" y="3710" width="140" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
