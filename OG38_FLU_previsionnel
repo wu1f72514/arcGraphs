@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T14:55:50.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="NwfJUwyB033uTHEWENv1" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T15:03:22.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="DAbELURQnMi9z5Zyo7Ff" version="15.9.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-27" value="Si&lt;br&gt;trouvé&amp;nbsp;&lt;br&gt;== &lt;br&gt;False" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="312.5" y="1102" width="110" height="90" as="geometry" />
+          <mxGeometry x="267.5" y="953" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YKv1Sg7atp95zc7nEK8a-29" target="YKv1Sg7atp95zc7nEK8a-19">
           <mxGeometry relative="1" as="geometry" />
@@ -100,23 +100,47 @@
         <mxCell id="YKv1Sg7atp95zc7nEK8a-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YKv1Sg7atp95zc7nEK8a-37" target="YKv1Sg7atp95zc7nEK8a-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="366" y="1332" />
-              <mxPoint x="110" y="1332" />
+              <mxPoint x="321" y="1180" />
+              <mxPoint x="110" y="1180" />
               <mxPoint x="110" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-37" value="Suppression de&amp;nbsp;&lt;br&gt;l&#39;enregistrement de la demande produit dans table FLU-USI / DmdPresProduit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="1221" width="132.5" height="91" as="geometry" />
+          <mxGeometry x="255" y="1072" width="132.5" height="91" as="geometry" />
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-39" value="ligne 1198" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="1250" width="80" height="20" as="geometry" />
+          <mxGeometry x="405" y="1101" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YKv1Sg7atp95zc7nEK8a-40" target="YKv1Sg7atp95zc7nEK8a-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-40" value="Hall_ID&lt;br&gt;!= Null" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="1370" width="120" height="120" as="geometry" />
+          <mxGeometry x="432.5" y="1180" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-44" value="Sortie boucle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="332.5" y="670" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-45" value="Enreg suivant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#808080;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="940" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-46" value="Pour tous les produits du message -&amp;gt; créer/modifier la demande si nécessaire&lt;br&gt;Si demande de type 1 (ligne) ou 2 (actuel) existe pour un produit -&amp;gt; on le passe" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1180" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YKv1Sg7atp95zc7nEK8a-47" target="YKv1Sg7atp95zc7nEK8a-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-47" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Pour&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;chaque poste de&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Produits&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="432.5" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YKv1Sg7atp95zc7nEK8a-49" target="YKv1Sg7atp95zc7nEK8a-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-49" value="Poste &lt;b&gt;Produits&lt;/b&gt;&lt;br&gt;!= Null" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="432.5" y="1420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-52" value="Lister les demandes produits par nom principal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="418.75" y="1560" width="147.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
