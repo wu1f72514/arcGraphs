@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T15:14:35.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ZMgGtE3G_k1nOYL_3Vdj" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T15:29:08.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ld_h1oB4b7g60nqPiKmT" version="15.9.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,9 @@
         </mxCell>
         <mxCell id="YKv1Sg7atp95zc7nEK8a-60" value="&lt;b&gt;Mise à jour champs de l&#39;enreg demande produit en cours:&lt;/b&gt;&lt;br&gt;- demandeur = plan (du message OG38)&lt;br&gt;- hall_ID = Hall_ID (du message OG38)&lt;br&gt;- Ordre = Null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;align=left;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1970" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YKv1Sg7atp95zc7nEK8a-62" value="ligne 1223" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#808080;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="2000" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
