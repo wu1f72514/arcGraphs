@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T13:17:36.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="2FLQLBOgraT_XSHFmxfO" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T13:22:19.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="eP4uiBnsfRyZP13n_3cB" version="16.2.4" type="github">
   <diagram id="fzYxJ_30GWUZ_gAGT-sj" name="Page-1">
     <mxGraphModel dx="1422" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-1" value="&lt;font color=&quot;#808080&quot; style=&quot;font-size: 17px&quot; face=&quot;Garamond&quot;&gt;USI / Coeur / Communication / TraitementMessageOG.cs&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="402.5" y="20" width="410" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MDHaKPOsfxrBOpXRpZRH-2" value="Contexte:&amp;nbsp;&lt;br&gt;- &lt;b&gt;Produits &lt;/b&gt;est un tableau de Strings comportant chaque UM contenu dans le message OG38 en cours de traitement&lt;br&gt;- &lt;b&gt;tDDP &lt;/b&gt;Demandes produit issues du demandeur" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#CFDEEB;fontSize=14;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="160" width="740" height="60" as="geometry" />
+        <mxCell id="MDHaKPOsfxrBOpXRpZRH-2" value="Contexte:&amp;nbsp;&lt;br&gt;- &lt;b&gt;Produits &lt;/b&gt;est un tableau de Strings comportant &lt;br&gt;chaque UM contenu dans le message OG38 en cours de traitement&lt;br&gt;- &lt;b&gt;tDDP &lt;/b&gt;Demandes produit issues du demandeur" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#CFDEEB;fontSize=14;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Usage OG38&amp;nbsp; cas CM renseigné&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="42.5" y="20" width="320" height="20" as="geometry" />
@@ -66,13 +66,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-26" value="Hall_ID&amp;nbsp;&lt;br&gt;!=&lt;br&gt;Null" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="380" y="515" width="120" height="110" as="geometry" />
+          <mxGeometry x="380" y="510" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="1" source="MDHaKPOsfxrBOpXRpZRH-30" target="MDHaKPOsfxrBOpXRpZRH-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-30" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Pour&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;chaque poste de&lt;/span&gt;&lt;br style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Produits&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="1" source="MDHaKPOsfxrBOpXRpZRH-33" target="MDHaKPOsfxrBOpXRpZRH-35">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-33" value="Poste &lt;b&gt;Produits&lt;/b&gt;&lt;br&gt;!= Null" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="188" y="748" width="120" height="120" as="geometry" />
+          <mxGeometry x="187.99" y="740" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MDHaKPOsfxrBOpXRpZRH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#808080;endArrow=classic;endFill=1;" edge="1" parent="1" source="MDHaKPOsfxrBOpXRpZRH-35" target="MDHaKPOsfxrBOpXRpZRH-37">
           <mxGeometry relative="1" as="geometry" />
