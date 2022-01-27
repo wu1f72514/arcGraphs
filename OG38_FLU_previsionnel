@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T15:35:33.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="hr8rVoTfwCNWKDkojZcQ" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T07:26:09.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="bodRBAH8IS7W8JjCLQut" version="16.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1059,14 +1059,48 @@
         <mxCell id="_6rYN4TJwd0_jCTHAAQZ-253" value="OutilTransport &lt;br&gt;==&lt;br&gt;&#39;GPO&#39;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="474.16" y="7365" width="112.79" height="117" as="geometry" />
         </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_6rYN4TJwd0_jCTHAAQZ-254" target="_6rYN4TJwd0_jCTHAAQZ-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_6rYN4TJwd0_jCTHAAQZ-254" value="Activite_ID = &#39;&lt;font color=&quot;#000000&quot;&gt;HP3_Chgt_GPO&lt;/font&gt;&#39;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470.555" y="7515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_6rYN4TJwd0_jCTHAAQZ-255" value="&lt;span style=&quot;font-size: 17px ; background-color: rgb(255 , 242 , 204)&quot;&gt;8.7. Halle P3 - Alim Activite_ID&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-276.17" y="7260.83" width="590.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-257" value="ARRIVE 1047" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="605" y="7560" width="90" height="20" as="geometry" />
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_6rYN4TJwd0_jCTHAAQZ-258" target="_6rYN4TJwd0_jCTHAAQZ-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-258" value="Produits &lt;br&gt;= &lt;br&gt;Tableau de strings&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="66.42500000000008" y="7620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-263" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_6rYN4TJwd0_jCTHAAQZ-260" target="_6rYN4TJwd0_jCTHAAQZ-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-260" value="i &amp;lt; &lt;br&gt;nombre UM du message" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="79.64" y="7710" width="93.57" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_6rYN4TJwd0_jCTHAAQZ-262" target="_6rYN4TJwd0_jCTHAAQZ-264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-262" value="Produits[i] =&lt;br&gt;UM du message[i]" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="66.425" y="7840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_6rYN4TJwd0_jCTHAAQZ-264" target="_6rYN4TJwd0_jCTHAAQZ-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="126" y="7990" />
+              <mxPoint x="60" y="7990" />
+              <mxPoint x="60" y="7690" />
+              <mxPoint x="126" y="7690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-264" value="i = i+1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="79.63000000000001" y="7940" width="93.58" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_6rYN4TJwd0_jCTHAAQZ-267" value="&lt;span style=&quot;font-size: 17px&quot;&gt;9. Alim Produits&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-192.9" y="7769.1" width="424.22" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
