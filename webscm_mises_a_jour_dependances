@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T12:14:21.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="BTa6M50BCN_0yMwVEHyu" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T12:15:37.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="b2EzBZA8oEcKf5Gf-lyc" version="18.0.0" type="github">
   <diagram id="Hlxz_GLg-l9Xv7o2uzoB" name="Page-1">
-    <mxGraphModel dx="1775" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2407" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -554,6 +554,15 @@
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-101" target="YKMgYXR_DoWiuhNLwkrY-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-101" target="YKMgYXR_DoWiuhNLwkrY-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2370" y="970" />
+              <mxPoint x="2370" y="1460" />
+              <mxPoint x="695" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-101" value="65&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Ressources métal : calcul des segments&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1910" y="930" width="170" height="80" as="geometry" />
         </mxCell>
@@ -676,6 +685,9 @@
         </mxCell>
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-153" value="101&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Tester les KPI pas à jour (10h)&lt;/span&gt;&lt;span style=&quot;text-align: start; background-color: rgb(221, 221, 238); font-size: 12.8px; font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="1490" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-154" value="102&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;GOR Blanchiment dans SAP avant 10h&lt;/span&gt;&lt;span style=&quot;text-align: start; background-color: rgb(221, 221, 238); font-size: 12.8px; font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1490" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
