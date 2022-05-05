@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T12:28:42.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="CAf_Mpuf9K89yO2fXoMf" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T12:31:13.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="ZEOSSBPbFAyQv0GEuCqH" version="18.0.0" type="github">
   <diagram id="Hlxz_GLg-l9Xv7o2uzoB" name="Page-1">
     <mxGraphModel dx="2407" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -754,6 +754,9 @@
         </mxCell>
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-177" value="271&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;recopie de la base miroir&lt;/span&gt;&lt;span style=&quot;text-align: start; background-color: rgb(221, 221, 238); font-size: 12.8px; font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2320" y="1620" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-178" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 25px;&quot;&gt;Enchainement des mises à jour WebSCM au 05/05/22&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="620" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
