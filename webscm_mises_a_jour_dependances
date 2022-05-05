@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T09:02:39.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="c7QQES9dWJN3NcAU71Y3" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T09:23:21.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="Wbu85zGgGoSICMWCWwhm" version="18.0.0" type="github">
   <diagram id="Hlxz_GLg-l9Xv7o2uzoB" name="Page-1">
-    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -418,8 +418,155 @@
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-67" value="48&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Ressources métal : données SPF (stocks extérieurs - Univers SIA)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1500" y="750" width="170" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-69" target="YKMgYXR_DoWiuhNLwkrY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-69" target="YKMgYXR_DoWiuhNLwkrY-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YKMgYXR_DoWiuhNLwkrY-69" value="50&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Ressources métal : données complémentaires&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1710" y="750" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-88" value="51&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;RAJ : Maj des kpi stocks devant outils&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="750" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-90" value="52&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;RAJ : Previsions mensuelles via ISUL (CAPCAMP)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-91" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-91" value="55&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions Florange&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="750" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-92" value="56&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Production DK_ACI_ENF(extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-93" value="57&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions DK_ACI (extraction BO)&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-94" value="58&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions DV (extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-95" value="59&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions DK_TCC (extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-96" value="60&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;RAJ : Productions MT (extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-97" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="1040" />
+              <mxPoint x="2183" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-97" value="61&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ ; Productions MK(extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-98" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="1040" />
+              <mxPoint x="2183" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-98" value="62&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions MK_EMB (extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-99" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1585" y="1040" />
+              <mxPoint x="2183" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-99" value="63&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Productions Mouzon (extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-100" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1785" y="1040" />
+              <mxPoint x="2183" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-100" value="64&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;RAJ : Expéditions AMAL (Extraction BO)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-101" target="YKMgYXR_DoWiuhNLwkrY-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-101" target="YKMgYXR_DoWiuhNLwkrY-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-101" value="65&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Ressources métal : calcul des segments&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="930" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-103" value="70&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;BDT - Délestages : entrées&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-104" value="71&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;BDT - Délestages : sorties&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-105" value="72&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;BDT - MLMC : expéditions fer&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-106" value="73&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(238, 238, 238);&quot;&gt;BDT - MLMC : expéditions route&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-107" target="YKMgYXR_DoWiuhNLwkrY-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-107" target="YKMgYXR_DoWiuhNLwkrY-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-107" value="68&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Avancement Métal des commandes Atlantique&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-108" target="YKMgYXR_DoWiuhNLwkrY-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="1250" />
+              <mxPoint x="1070" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1269.8823529411766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-108" value="69&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 232, 199);&quot;&gt;Avancement Métal des commandes de la Lorraine&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1210" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-109" value="26&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Commandes - CONCERTO&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-112" value="27&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Archivage COMMANDES_SAP&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1230" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-115" value="75&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Relance Valideur Rencontres Clients&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-116" value="76&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Suivi stock (Laurent.D)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-117" value="77&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;KPI Calcul PMAD traitées à J+1&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-119" value="81&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;BDN Stock rotation Production (Journalier)&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;Automatique&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="YKMgYXR_DoWiuhNLwkrY-121" target="YKMgYXR_DoWiuhNLwkrY-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKMgYXR_DoWiuhNLwkrY-121" value="80&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Rapport journalier ATL&lt;/span&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1100" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
