@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T06:30:26.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="18.0.0" etag="Gjdkjlce8qneGv5y_I_a" type="github"><diagram id="Hlxz_GLg-l9Xv7o2uzoB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-05T06:36:33.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="lxPTJwgSyMx3v7z5Tt5h" version="18.0.0" type="github">
+  <diagram id="Hlxz_GLg-l9Xv7o2uzoB" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBsemkL7ZsbLUa5aoDci-1" target="yBsemkL7ZsbLUa5aoDci-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBsemkL7ZsbLUa5aoDci-1" target="yBsemkL7ZsbLUa5aoDci-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="290" />
+              <mxPoint x="510" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBsemkL7ZsbLUa5aoDci-1" target="yBsemkL7ZsbLUa5aoDci-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="290" />
+              <mxPoint x="930" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-1" value="0&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(221, 221, 238);&quot;&gt;Commandes SAP - données principales - CORE RORD&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-2" value="0&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Commandes SAP - données complémentaires - CORE SAOFU&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-3" value="0&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Commandes SAP - Besoins Flux - CORE SAOFU (Delins)&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-4" value="0&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Commandes SAP - Expéditions/Facturations (RFIN avec CORE)&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yBsemkL7ZsbLUa5aoDci-5" value="0&lt;br&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;Commandes SAP - Stocks Produits Finis - CoRe RAST&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Manuel&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Verdana, Arial, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 12.8px; text-align: start; background-color: rgb(221, 221, 238);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
